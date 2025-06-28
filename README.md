@@ -69,21 +69,12 @@ Each project is:
    git clone https://github.com/atreyi-biswas/cpp-projects.git
 
 2. Navigate to any project folder:<br>
-   cd 01-number-guessing-game
+   cd 01-number-guessing-game 
    
 3. Compile and run:<br>
    g++ main.cpp -o app
 ./app
 
 
-   
-   👩‍💻 Author
-Atreyi Biswas
-
-🎓 CSE Student at IIEST Shibpur
-
-🌐 GitHub
-
-📧 atreyib11@gmail.com
 
 
