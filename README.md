@@ -68,10 +68,10 @@ Each project is:
    ```bash
    git clone https://github.com/atreyi-biswas/cpp-projects.git
 
-2. Navigate to any project folder:
+2. Navigate to any project folder:<br>
    cd 01-number-guessing-game
    
-3. Compile and run:
+3. Compile and run:<br>
    g++ main.cpp -o app
 ./app
 
