@@ -77,7 +77,7 @@ void display_output(double ans){
 
 
 
-float add_numbers(vector<float>&a, float n){
+float add_numbers(vector<float>&a, float n){ //ADDITION
     
     float sum=0;
 
@@ -86,12 +86,13 @@ float add_numbers(vector<float>&a, float n){
         
     }
     
-    return sum;
-    
+    return sum; 
 
 }
 
-float sub_numbers(vector<float>&a, float n){
+/*--------------------------------*/
+
+float sub_numbers(vector<float>&a, float n){ //SUBTRACTION
 
     float sub=a[0];
 
@@ -100,12 +101,13 @@ float sub_numbers(vector<float>&a, float n){
         
     }
     
-    return sub;
-    
+    return sub;  
 
 }
 
-float mul_numbers(vector<float>&a, float n){
+/*--------------------------------*/
+
+float mul_numbers(vector<float>&a, float n){ //MULTIPLICATION
     
     float mul=1;
 
@@ -114,57 +116,61 @@ float mul_numbers(vector<float>&a, float n){
         
     }
     
-    return mul;
-    
+    return mul;  
 
 }
 
-float div_numbers(float n1, float n2){
+/*--------------------------------*/
+
+float div_numbers(float n1, float n2){ //DIVISION
     
     float div=n1/n2;
 
     return div;
-    
 
 }
 
-float mod_numbers(int n1, int n2){
+/*--------------------------------*/
+
+float mod_numbers(int n1, int n2){ //MODULUS
     
     float mod=n1%n2;
 
     return mod;
     
-
 }
 
-float log10_numbers(float n){
+/*--------------------------------*/
+
+float log10_numbers(float n){ //LOG OF 10
     
     float log=log10(n);
 
     return log;
     
-
 }
 
-float log2_numbers(float n){
+
+float log2_numbers(float n){ //LOG OF 2
     
     float log=log2_numbers(n);
 
-    return log;
-    
+    return log;  
 
 }
 
-float loge_numbers(float n){
+
+float loge_numbers(float n){ //LOG OF e
     
     float loge=log(n);
 
     return loge;
-    
 
 }
 
-float sq_numbers(int n){
+/*--------------------------------*/
+
+float sq_numbers(int n){ //SQUARE NUMBERS
     
     float sq=sqrt(n);
 
@@ -173,7 +179,9 @@ float sq_numbers(int n){
 
 }
 
-float cu_numbers(int n){
+/*--------------------------------*/
+
+float cu_numbers(int n){ //CUBE NUMBERS
     
     float cu = n*n*n;
 
@@ -182,7 +190,9 @@ float cu_numbers(int n){
 
 }
 
-float pow_numbers(float n, float p){
+/*--------------------------------*/
+
+float pow_numbers(float n, float p){ //POWER
     
     float pow = 1;
 
@@ -195,10 +205,11 @@ float pow_numbers(float n, float p){
 
     return pow;
     
-
 }
 
-float sinr_numbers(float n){
+/*--------------------------------*/
+
+float sinr_numbers(float n){ //SINE IN radians
     
     float si = sin(n);
 
@@ -206,7 +217,7 @@ float sinr_numbers(float n){
 
 }
 
-float sind_numbers(float n){
+float sind_numbers(float n){ //SINE IN degree
     
     float si = sin(n*(M_PI/180));
 
@@ -214,7 +225,9 @@ float sind_numbers(float n){
 
 }
 
-float cosr_numbers(float n){
+/*--------------------------------*/
+
+float cosr_numbers(float n){  //COSINE IN radians
     
     float co = cos(n);
 
@@ -222,7 +235,7 @@ float cosr_numbers(float n){
 
 }
 
-float cosd_numbers(float n){
+float cosd_numbers(float n){  //COSINE IN degree
     
     float co = cos(n*(M_PI/180));
 
@@ -230,7 +243,9 @@ float cosd_numbers(float n){
 
 }
 
-float tanr_numbers(float n){
+/*--------------------------------*/
+
+float tanr_numbers(float n){  //TANGENT IN radians
     
     float ta = tan(n);
 
@@ -238,7 +253,7 @@ float tanr_numbers(float n){
 
 }
 
-float tand_numbers(float n){
+float tand_numbers(float n){  //TANGENT IN degree
     
     float ta = tan(n*(M_PI/180));
 
@@ -246,7 +261,9 @@ float tand_numbers(float n){
 
 }
 
-float sqr_numbers(float n){
+/*--------------------------------*/
+
+float sqr_numbers(float n){ //SQUARE ROOT
     
     float sq = sqrt(n);
 
@@ -254,7 +271,9 @@ float sqr_numbers(float n){
 
 }
 
-float ar_numbers(float n, float r){
+/*--------------------------------*/
+
+float ar_numbers(float n, float r){ //ANY ROOT
     
     float ar = pow(n, 1.0/r); // as root of any number is base^(1/power)
 
@@ -300,6 +319,8 @@ int main(){
         cout<<endl;
     }
 
+    /*--------------------------------*/
+
     else if(o == "-"){ //SUBTRACTION
 
         vector<float>a; //array of elements for subtraction
@@ -322,6 +343,8 @@ int main(){
         display_output(ans);
         cout<<endl; 
     }
+
+    /*--------------------------------*/
 
     else if(o == "*"){ //MULTIPLY
 
@@ -347,6 +370,8 @@ int main(){
 
     }
 
+    /*--------------------------------*/
+
     else if(o == "/"){ //DIVIDE
 
         float n1;
@@ -363,6 +388,8 @@ int main(){
         cout<<endl; 
     }
 
+    /*--------------------------------*/
+
     else if(o == "m"){ //MODULUS
 
         int n1;
@@ -378,6 +405,8 @@ int main(){
         display_output(ans);
         cout<<endl; 
     }
+
+    /*--------------------------------*/
 
     else if(o == "L"){ //LOGARITHM
 
@@ -419,6 +448,8 @@ int main(){
         }
     }
 
+    /*--------------------------------*/
+
     else if(o == "S"){ //SQUARE
 
         float n;
@@ -435,6 +466,8 @@ int main(){
          
     }
 
+    /*--------------------------------*/
+
     else if(o == "C"){ //CUBE
 
         float n;
@@ -449,6 +482,8 @@ int main(){
         display_output(ans);
         cout<<endl; 
     }
+
+    /*--------------------------------*/
 
     else if(o == "P"){ //POWER
 
@@ -468,6 +503,8 @@ int main(){
         display_output(ans);
         cout<<endl; 
     }
+
+    /*--------------------------------*/
 
     else if(o == "s"){ //SINE
 
@@ -502,6 +539,8 @@ int main(){
         } 
     }
 
+    /*--------------------------------*/
+
     else if(o == "c"){ //COSINE
 
         float n; //number
@@ -533,6 +572,8 @@ int main(){
             cout<<endl;
         } 
     }
+
+    /*--------------------------------*/
 
     else if(o == "t"){ //TANGENT
 
@@ -566,6 +607,8 @@ int main(){
         } 
     }
 
+    /*--------------------------------*/
+
     else if(o == "r"){ //SQUARE ROOT
 
         float n; //number
@@ -580,6 +623,8 @@ int main(){
         display_output(ans);
         cout<<endl; 
     }
+
+    /*--------------------------------*/
 
     else if(o == "a"){ //ANY ROOT
 
@@ -599,7 +644,10 @@ int main(){
         cout<<endl; 
     }
 
-    else if(o == "."){
+    /*--------------------------------*/
+
+    else if(o == "."){ //CLEAR
+        
         show_calculator();
         string o; //operation
 
