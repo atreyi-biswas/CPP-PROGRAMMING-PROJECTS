@@ -33,11 +33,12 @@ If you're interested in how I learned C++ step by step — including notes, code
 
 ## 🧠 Projects List
 
-| Project Name    | Description                                           | Difficulty |
-|----------------|-------------------------------------------------------|------------|
-| Calculator      | A basic CLI calculator using conditionals and loops. | Easy       |
-| Tic Tac Toe     | A two-player command-line game built using arrays.   | Medium     |
-| Sudoku Solver   | Solves a 9x9 Sudoku using backtracking recursion.    | Hard       |
+| Project Name      | Description                                          | Difficulty |
+|-------------------|------------------------------------------------------|------------|
+| Calculator        | A basic CLI calculator using conditionals and loops. | Easy       |
+| Tic Tac Toe       | A two-player command-line game built using arrays.   | Medium     |
+| Sudoku Solver     | Solves a 9x9 Sudoku using backtracking recursion.    | Hard       |
+| CGPA Calculator   | Calculates Cumulative Grade Point Average            | Easy       |
 
 ---
 
