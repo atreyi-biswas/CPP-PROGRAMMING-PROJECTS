@@ -35,8 +35,8 @@ If you're interested in how I learned C++ step by step — including notes, code
 
 ### 🟢 Easy Projects
 
-| Project Name | Description | Difficulty |
-|---|---|---|
+| Project Name | Description | Difficulty | Project Link |
+|---|---|---|---|
 | CGPA Calculator | Calculates Cumulative Grade Point Average | Easy |
 | Student Marks Analyzer | Analyze student marks, calculate averages, topper, and rankings using arrays and functions. | Easy |
 | Password Strength Checker | Check password validity based on length, symbols, uppercase, lowercase, and numbers. | Easy |
@@ -51,8 +51,8 @@ If you're interested in how I learned C++ step by step — including notes, code
 
 ### 🟡 Medium Projects
 
-| Project Name | Description | Difficulty |
-|---|---|---|
+| Project Name | Description | Difficulty | Project Link |
+|---|---|---|---|
 | Tic Tac Toe | A two-player command-line game built using arrays. | Medium |
 | Library Management System | Manage books, issue/return records, and search functionality. | Medium |
 | Student Register Management System | Perform CRUD operations on student records with file handling support. | Medium |
@@ -68,8 +68,8 @@ If you're interested in how I learned C++ step by step — including notes, code
 
 ### 🟠 Hard Projects
 
-| Project Name | Description | Difficulty |
-|---|---|---|
+| Project Name | Description | Difficulty | Project Link |
+|---|---|---|---|
 | Maze Solver | Find valid paths in a maze using recursion and DFS algorithms. | Hard |
 | Sudoku Solver | Automatically solve Sudoku puzzles using backtracking algorithms. | Hard |
 | Binary Search Tree Visualizer | Build and traverse BSTs with insertion, deletion, and searching operations. | Hard |
@@ -82,8 +82,8 @@ If you're interested in how I learned C++ step by step — including notes, code
 
 ### 🔴 Advanced Projects
 
-| Project Name | Description | Difficulty |
-|---|---|---|
+| Project Name | Description | Difficulty | Project Link |
+|---|---|---|---|
 | Command Line Shell | Create a terminal-like shell that executes system commands and manages processes. | Advanced |
 
 ---
